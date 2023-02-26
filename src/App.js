@@ -64,6 +64,7 @@ function App() {
         {/* Add the multiply button */}
         <button onClick={times}>multiply</button>
         {/* Add the divide button */}
+        <button onClick={divide}>divide</button>
         {/* Add the resetInput button */}
         {/* Add the resetResult button */}
       </form>
