@@ -28,6 +28,8 @@ function App() {
 
   function divide(e) {
     // Add the code for the divide function 
+    e.preventDefault();
+    setResult((result) => result / Number(inputRef.current.value));
   };
 
   function resetInput(e) {
