@@ -21,7 +21,9 @@ function App() {
   };
 
   function times(e) {
-    // Add the code for the plus function 
+    // Add the code for the times function 
+    e.preventDefault();
+    setResult((result) => result * Number(inputRef.current.value));
   };
 
   function divide(e) {
