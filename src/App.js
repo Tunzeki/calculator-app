@@ -56,6 +56,7 @@ function App() {
         />
         <button onClick={plus}>add</button>
         {/* Add the subtract button */}
+        <button onClick={minus}>minus</button>
         {/* Add the multiply button */}
         {/* Add the divide button */}
         {/* Add the resetInput button */}
