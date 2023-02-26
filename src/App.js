@@ -35,11 +35,13 @@ function App() {
   function resetInput(e) {
     // Add the code for the resetInput function
     e.preventDefault();
-    inputRef.current = null;
+    inputRef.current.value = null;
   };
 
   function resetResult(e) {
-    // Add the code for the resetResult function 
+    // Add the code for the resetResult function
+    e.preventDefault();
+    setResult(0);
   };
 
   return (
@@ -70,6 +72,7 @@ function App() {
         {/* Add the resetInput button */}
         <button onClick={resetInput}>reset input</button>
         {/* Add the resetResult button */}
+        <button onClick={resetResult}>reset result</button>
       </form>
     </div>
   );
