@@ -41,7 +41,10 @@ function App() {
       </div>
       <form>
         <p ref={resultRef}>
-          {/* add the value of the current total */}
+          {
+            /* add the value of the current total */
+            result
+          }
         </p>
         <input
           pattern="[0-9]"
