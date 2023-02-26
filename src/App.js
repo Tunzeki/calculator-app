@@ -60,6 +60,7 @@ function App() {
         {/* Add the subtract button */}
         <button onClick={minus}>minus</button>
         {/* Add the multiply button */}
+        <button onClick={times}>multiply</button>
         {/* Add the divide button */}
         {/* Add the resetInput button */}
         {/* Add the resetResult button */}
