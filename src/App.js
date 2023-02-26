@@ -33,7 +33,9 @@ function App() {
   };
 
   function resetInput(e) {
-    // Add the code for the resetInput function 
+    // Add the code for the resetInput function
+    e.preventDefault();
+    inputRef.current = null;
   };
 
   function resetResult(e) {
@@ -66,6 +68,7 @@ function App() {
         {/* Add the divide button */}
         <button onClick={divide}>divide</button>
         {/* Add the resetInput button */}
+        <button onClick={resetInput}>reset input</button>
         {/* Add the resetResult button */}
       </form>
     </div>
